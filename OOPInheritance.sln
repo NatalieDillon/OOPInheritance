@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPInheritance", "OOPInheritance\OOPInheritance.csproj", "{ADB1E2EB-9279-4574-AEB0-18E1CC42D5F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPInheritance.Classes", "OOPInheritance.Classes\OOPInheritance.Classes.csproj", "{38475984-F0E7-44B9-8DDF-4D7FB796D3E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB1E2EB-9279-4574-AEB0-18E1CC42D5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB1E2EB-9279-4574-AEB0-18E1CC42D5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB1E2EB-9279-4574-AEB0-18E1CC42D5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB1E2EB-9279-4574-AEB0-18E1CC42D5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38475984-F0E7-44B9-8DDF-4D7FB796D3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38475984-F0E7-44B9-8DDF-4D7FB796D3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38475984-F0E7-44B9-8DDF-4D7FB796D3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38475984-F0E7-44B9-8DDF-4D7FB796D3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C786C6D2-5D06-4DDE-BC34-898F6B6D4109}
+	EndGlobalSection
+EndGlobal
