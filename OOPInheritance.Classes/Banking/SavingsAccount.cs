@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPInheritance.Classes
+namespace OOPInheritance.Classes.Banking
 {
     public class SavingsAccount : BankAccount
     {

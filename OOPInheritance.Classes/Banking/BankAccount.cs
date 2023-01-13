@@ -1,4 +1,4 @@
-﻿namespace OOPInheritance.Classes
+﻿namespace OOPInheritance.Classes.Banking
 {
     public abstract class BankAccount
     {
