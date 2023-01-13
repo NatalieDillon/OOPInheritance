@@ -16,11 +16,17 @@
         }
 
         // Methods
+
+        private string Test()
+        {
+            return "test";
+        }
         public abstract void Withdraw(decimal amount);
 
         public void Deposit(decimal amount)
         {
             Balance += amount;
+            Console.WriteLine(Test());
         }
 
     }

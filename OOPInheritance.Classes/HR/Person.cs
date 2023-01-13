@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace OOPInheritance.Classes.HR
 {
     public class Person
-    {
-      
+    {      
         private DateTime _dateOfBirth;
 
         public string Name { get; protected set; }
