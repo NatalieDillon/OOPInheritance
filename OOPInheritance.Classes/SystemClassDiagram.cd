@@ -1,25 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="OOPInheritance.Classes.Banking.BankAccount">
-    <Position X="4" Y="1" Width="1.5" />
+    <Position X="5.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAEAAAAAAAAAEAAAAAgEAAIEAAAAAAAQAAABAAAAAAI=</HashCode>
       <FileName>Banking\BankAccount.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="_transactions" />
-      <Property Name="AccountHolder" />
-    </ShowAsAssociation>
   </Class>
   <Class Name="OOPInheritance.Classes.Banking.CheckingAccount">
-    <Position X="1.75" Y="5" Width="1.5" />
+    <Position X="1.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAQAEAAAAAAEAAAAAAAAAAAA=</HashCode>
       <FileName>Banking\CheckingAccount.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OOPInheritance.Classes.Banking.SavingsAccount">
-    <Position X="6" Y="4.75" Width="1.5" />
+    <Position X="6.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAEAAEAAAAAAAAEAAEAAAAAAAAAAAACAAA=</HashCode>
       <FileName>Banking\SavingsAccount.cs</FileName>
@@ -33,29 +29,25 @@
     </TypeIdentifier>
   </Class>
   <Class Name="OOPInheritance.Classes.HR.Person">
-    <Position X="8.5" Y="1" Width="1.5" />
+    <Position X="7.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAQAAAAAAAAAAAQAAA=</HashCode>
       <FileName>HR\Person.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OOPInheritance.Classes.Banking.Transaction">
-    <Position X="1.25" Y="2.25" Width="1.5" />
+    <Position X="3.5" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgAAAAAAAAAACAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Banking\Transaction.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
-    <Position X="1.25" Y="1.5" Width="1.5" />
-    <NestedTypes>
-      <Class Name="System.Collections.Generic.List&lt;T&gt;.Enumerator" Collapsed="true">
-        <TypeIdentifier />
-        <Lollipop Position="0.2" />
-      </Class>
-    </NestedTypes>
-    <TypeIdentifier />
-    <Lollipop Position="0.2" />
+  <Class Name="OOPInheritance.Classes.HR.Department">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAACAAAQAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>HR\Department.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

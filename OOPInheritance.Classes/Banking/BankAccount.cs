@@ -5,10 +5,15 @@ namespace OOPInheritance.Classes.Banking
     public abstract class BankAccount
     {
         //Fields
+
+        // Composition - the transactions are tied to the bank account
+        // They cannot have an independent existence outside of the bank account
         private List<Transaction> _transactions = new List<Transaction>();
 
         // Properties
-        protected Person AccountHolder { get; private set; }
+
+        // Association - a bank account has an account holder
+        protected Person AccountHolder { get; private set; } 
         public decimal Balance { get; protected set; }
         public decimal OpeningBalance { get; protected set; }
         public DateTime OpeningDate { get; private set; }
@@ -23,8 +28,9 @@ namespace OOPInheritance.Classes.Banking
         }
 
         // Methods
-        protected void AddTransaction(Transaction transaction)
+        protected void AddTransaction(decimal amount, string description, TransactionType type)
         {
+            Transaction transaction = new Transaction(amount, description, type);
             _transactions.Add(transaction);
         }
 

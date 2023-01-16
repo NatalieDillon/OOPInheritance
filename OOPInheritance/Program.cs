@@ -9,6 +9,7 @@ namespace OOPInheritance
         static void Main()
         {
             TestBankAccounts();
+            TestPeople();
         }
 
         static void TestPeople()
@@ -16,8 +17,14 @@ namespace OOPInheritance
             Person person = new Person("Joe Smith", new DateTime(2007, 12, 22));
             Console.WriteLine(person.Description());
 
+            CheckingAccount checkingAccount = new(300, new DateTime(2022, 10, 11), person);
+            Console.WriteLine($"Current Balance: {checkingAccount.Balance}");
+
             Employee employee = new Employee("Jane Brown", new DateTime(2007, 12, 22), new DateTime(2019, 02, 13));
-            Console.WriteLine(employee.Description());
+            Console.WriteLine(employee.Description());           
+
+            Department accounts = new Department("Accounts");
+            accounts.AddEmployee(employee);
         }
 
         static void TestBankAccounts()

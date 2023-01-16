@@ -1,4 +1,5 @@
-﻿using OOPInheritance.Classes.HR;
+﻿
+using OOPInheritance.Classes.HR;
 
 namespace OOPInheritance.Classes.Banking
 {
@@ -28,9 +29,9 @@ namespace OOPInheritance.Classes.Banking
             {
                 throw new InvalidOperationException("Account cannot be in debit");
             }
-            Transaction transaction = new Transaction(Math.Abs(amount) * -1, description, type);
-            AddTransaction(transaction);
-            Balance += transaction.Amount;
+            decimal withdrawal = Math.Abs(amount) * -1;
+            AddTransaction(withdrawal, description, type);
+            Balance += withdrawal;
         }
 
         public decimal CalculateAndAddInterest()

@@ -28,8 +28,7 @@ namespace OOPInheritance.Classes.Banking
             {
                 throw new InvalidOperationException("Overdraft limit would be exceeded");
             }
-            Transaction transaction = new Transaction(Math.Abs(amount) * -1, description, type);
-            AddTransaction(transaction);
+            AddTransaction(Math.Abs(amount) * -1, description, type);
             Balance = newBalance;
         }
     }
