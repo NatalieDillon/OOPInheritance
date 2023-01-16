@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOPInheritance.Classes.Banking.BankAccount" Collapsed="true">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAgEAAAEAAAAAAAQAAAAAAAAAAI=</HashCode>
+      <FileName>Banking\BankAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPInheritance.Classes.Banking.CheckingAccount" Collapsed="true">
+    <Position X="2.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAEAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Banking\CheckingAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPInheritance.Classes.Banking.SavingsAccount" Collapsed="true">
+    <Position X="5.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAEAAAAAAAAEAAEAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Banking\SavingsAccount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPInheritance.Classes.HR.Employee" Collapsed="true">
+    <Position X="11.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgIAAAAAAAAQAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>HR\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOPInheritance.Classes.HR.Person" Collapsed="true">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAQAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>HR\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

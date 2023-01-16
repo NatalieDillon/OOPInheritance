@@ -8,7 +8,7 @@ namespace OOPInheritance
     {
         static void Main()
         {
-            TestPeople();
+            TestBankAccounts();
         }
 
         static void TestPeople()
