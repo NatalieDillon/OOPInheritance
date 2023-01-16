@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OOPInheritance.Classes.HR;
 
 namespace OOPInheritance.Classes.Banking
 {
@@ -14,7 +10,7 @@ namespace OOPInheritance.Classes.Banking
 
         public decimal InterestRate { get; private set; }
 
-        public SavingsAccount(decimal openingBalance, DateTime openingDate, string accountHolder, decimal interestRate) : base(openingDate, accountHolder)
+        public SavingsAccount(decimal openingBalance, DateTime openingDate, Person accountHolder, decimal interestRate) : base(openingDate, accountHolder)
         {
             if (openingBalance < MinimumOpeningBalance)
             {
@@ -26,13 +22,15 @@ namespace OOPInheritance.Classes.Banking
             _interestLastUpdated = OpeningDate;
         }
 
-        public override void Withdraw(decimal amount)
-        {
-            if (Balance < amount)
+        public override void Withdraw(decimal amount, TransactionType type, string description="")
+        {            
+            if (Balance < Math.Abs(amount))
             {
                 throw new InvalidOperationException("Account cannot be in debit");
             }
-            Balance -= amount;
+            Transaction transaction = new Transaction(Math.Abs(amount) * -1, description, type);
+            AddTransaction(transaction);
+            Balance += transaction.Amount;
         }
 
         public decimal CalculateAndAddInterest()
