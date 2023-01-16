@@ -16,9 +16,9 @@
         }
 
         // Methods
-        public abstract void Withdraw(decimal amount);
+        public abstract void Withdraw(decimal amount); // Must be overriden
 
-        public void Deposit(decimal amount)
+        public virtual void Deposit(decimal amount) // Can be overriden
         {
             Balance += amount;
         }
