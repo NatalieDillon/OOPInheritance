@@ -16,17 +16,11 @@
         }
 
         // Methods
+        public abstract void Withdraw(decimal amount); // Must be overriden
 
-        private string Test()
-        {
-            return "test";
-        }
-        public abstract void Withdraw(decimal amount);
-
-        public void Deposit(decimal amount)
+        public virtual void Deposit(decimal amount) // Can be overriden
         {
             Balance += amount;
-            Console.WriteLine(Test());
         }
 
     }
